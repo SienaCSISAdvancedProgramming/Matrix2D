@@ -4,10 +4,9 @@
  * that is required.
  * 
  * @author Jim Teresco
- * @version Fall 2017
+ * @version Spring 2022
  */
-public class Matrix2DSizeMismatchException extends Exception
-{
+public class Matrix2DSizeMismatchException extends Exception {
 
     public Matrix2DSizeMismatchException(int size1, int size2) {
         super("Matrix2D size mismatch: " + size1 + "!=" + size2);

@@ -4,7 +4,7 @@
  * index is specified out of range.
  * 
  * @author Jim Teresco
- * @version Fall 2017
+ * @version Spring 2022
  */
 public class Matrix2DIndexOutOfBoundsException extends Exception
 {
